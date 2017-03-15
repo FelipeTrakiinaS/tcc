@@ -11,9 +11,10 @@
     <meta name="author" content="Cesar">
     <link rel="icon" href="imagens/favicon.ico">
 
-    <title>Área para Usuário Cadastrado</title>
+    <title>Felipe Ittner</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/signin.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
     <script src="js/ie-emulation-modes-warning.js"></script>
 
   </head>
@@ -26,9 +27,10 @@
 		      $_SESSION['usuarioLogin'], 		
 		      $_SESSION['usuarioSenha']);
 	?>
+<div class="login-page">
     <div class="container">		
       <form class="form-signin" method="POST" action="valida_login.php">
-        <h2 class="form-signin-heading text-center">Área para Usuário Cadastrado</h2>
+        <h2 class="form-signin-heading text-center"><b>Bem vindo!</b></h2>
         <label for="inputEmail" class="sr-only">Usuário</label>
 		
         <input type="text" name="usuario" class="form-control" placeholder="Digitar o Usuário" required autofocus><br />
