@@ -89,7 +89,7 @@
 						Foto do Produto Antiga
 					</label>
 					<div class="col-sm-10">
-						<img src="<?php echo "../foto/$foto"; ?>" width="100" height="100">
+						<img src="<?php echo "foto/$foto"; ?>" width="100" height="100">
 						<input type="hidden" name="img_antiga" value='<?php echo $foto ?>'>
 					</div>
 				</div>

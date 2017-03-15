@@ -40,7 +40,7 @@
 						<td>
 						<div class="col-sm-9 col-md-11">
 							<?php $foto = $linhas['imagem']; ?>
-							<img src="<?php echo "../foto/$foto"; ?>" width="100" height="100">
+							<img src="<?php echo "foto/$foto"; ?>" width="100" height="100">
 						</div>			
 						</td>
 <!-- 						<td> 

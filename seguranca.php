@@ -10,5 +10,5 @@ if(($_SESSION['usuarioId'] == "") || ($_SESSION['usuarioNome'] == "") || ($_SESS
 	$_SESSION['loginErro'] = "Área restrita para usuários cadastrados";
 	
 	//Manda o usuário para a tela de login
-	header("Location: login.php");
+	header("Location: index.php");
 }

@@ -14,7 +14,7 @@ if(empty($resultado)){
 	$_SESSION['loginErro'] = "Usuário ou senha Inválido";
 	
 	//Manda o usuario para a tela de login
-	header("Location: login.php");
+	header("Location: index.php");
 }else{
 	//Define os valores atribuidos na sessao do usuario
 	$_SESSION['usuarioId'] 			= $resultado['id'];
